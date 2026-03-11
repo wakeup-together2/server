@@ -1,4 +1,4 @@
-package com.example.wake_up2.global.security;
+package com.example.wake_up2.global.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
