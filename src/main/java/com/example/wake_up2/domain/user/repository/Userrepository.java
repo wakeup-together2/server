@@ -5,5 +5,6 @@ import com.example.wake_up2.domain.user.entity.User;
 import java.util.Optional;
 
 public interface Userrepository extends JpaRepository<User, Long> {
-    Optional<User> findByemail(String email);
+    Optional<User> findByEmail(String email);
+    Optional<User> findByName(String username);
 }
